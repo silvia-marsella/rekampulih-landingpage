@@ -576,7 +576,7 @@ export default function Page() {
                 <span className="text-2xl">🩺</span>
                 <span className="text-[length:var(--fs-p)] font-bold text-white">Dokter Umum</span>
               </div>
-              <div className="px-6 pb-6 pt-2">
+              <div className="pb-2 pt-2 px-6">
                 {[
                   { title: "Riwayat Medis" },
                   { title: "Spesialisasi Medis", sub: "Penyakit Dalam, dll" },
