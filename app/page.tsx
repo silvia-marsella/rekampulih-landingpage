@@ -427,7 +427,7 @@ export default function Page() {
               src="/rekampulih-dashboard.webp"
               alt="Tampilan dashboard beranda rekampulih"
               loading="lazy"
-              className="block w-full h-auto rounded-2xl shadow-[0_36px_80px_-34px_rgba(20,60,45,.34)]"
+              className="block w-full h-auto rounded-2xl"
             />
           </div>
         </div>
@@ -588,7 +588,7 @@ export default function Page() {
                 ].map((row) => (
                   <div
                     key={row.title}
-                    className={`flex items-start gap-2.5 py-[13px] ${
+                    className={`flex items-start gap-2.5 py-[16px] ${
                       row.last ? "" : "border-b border-[#F0F4F8]"
                     }`}
                   >
