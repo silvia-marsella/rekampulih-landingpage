@@ -361,7 +361,7 @@ export default function Page() {
               Apa pun profesi Anda, rekampulih menyesuaikan diri dengan cara Anda bekerja.
             </p>
           </div>
-          <div className="mt-11 grid grid-cols-1 gap-[18px] sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
                 icon: "🧠",
@@ -422,7 +422,7 @@ export default function Page() {
           </div>
 
           {/* app mockup screenshot */}
-          <div className="relative mx-auto mt-[46px] max-w-[940px]">
+          <div className="relative mx-auto mt-10 max-w-[940px]">
             <img
               src="/rekampulih-dashboard.webp"
               alt="Tampilan dashboard beranda rekampulih"
@@ -447,7 +447,7 @@ export default function Page() {
               Alat lengkap untuk menjalankan praktik mandiri Anda — tanpa ribet.
             </p>
           </div>
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
                 icon: "👤",
@@ -536,7 +536,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="mt-11 grid grid-cols-1 gap-5 lg:grid-cols-2">
+          <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
             {/* psikolog column */}
             <div className="overflow-hidden rounded-[20px] border border-[#D8EFE4] bg-white shadow-[0_12px_32px_-20px_rgba(20,60,45,.2)]">
               <div className="flex items-center gap-3 bg-[#1D9E75] py-6 px-6">
@@ -658,7 +658,7 @@ export default function Page() {
               Mulai dalam 3 langkah
             </h2>
           </div>
-          <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
             {[
               {
                 n: 1,
@@ -718,7 +718,7 @@ export default function Page() {
           </div>
 
           {submitted ? (
-            <div className="animate-[rpFade_.4s_ease] mt-9 rounded-[20px] border border-[#D8EFE4] bg-[#F1FAF6] px-8 py-11 text-center">
+            <div className="animate-[rpFade_.4s_ease] mt-10 rounded-[20px] border border-[#D8EFE4] bg-[#F1FAF6] px-8 py-11 text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#1D9E75] text-3xl shadow-[0_8px_20px_rgba(29,158,117,.3)]">
                 ✅
               </div>
