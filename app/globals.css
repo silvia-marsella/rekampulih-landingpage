@@ -31,7 +31,12 @@ body {
     transform: translateY(0);
   }
 }
-
+.showcase-section {
+  padding-bottom:3rem!important;
+}
+.fitur-section {
+  padding-top:3rem!important;
+}
 @media (max-width:1024px) {
   .navbar {
     padding-left: 2.5rem;
@@ -46,11 +51,18 @@ body {
 }
 
 @media (max-width:767px) {
-  .navbar, .hero-section, .saved-notes-section, .untuk-siapa-section, .showcase-section, .fitur-section, .perbedaan-profesi-section, .harga-section, .cara-kerja-section, .form-section, .footer-section {
+  .navbar, .hero-section, .untuk-siapa-section, .showcase-section, .fitur-section, .perbedaan-profesi-section, .harga-section, .cara-kerja-section, .form-section, .footer-section {
     padding-left: 1.5rem;
     padding-right:1.5rem;
   } 
+  .saved-notes-section {
+    padding-top: 0 !important;
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    padding-bottom: 3rem !important;
+  }
   .card-section .grid-cols-2 {
     grid-template-columns: 1fr!important;
+    gap: 1.5rem!important;
   }
 }
